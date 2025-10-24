@@ -1,0 +1,29 @@
+# Local Terraform state and crash logs
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*
+
+# Terraform directories
+.terraform/
+.terraform.lock.hcl
+
+# Terraform plan output
+*.tfplan
+plan.out
+
+# Python bytecode and cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Lambda build artifacts
+*.zip
+
+.env
+*.env
+
+.DS_Store
+Thumbs.db
+
